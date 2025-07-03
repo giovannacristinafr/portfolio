@@ -57,7 +57,6 @@ body {
   font-style: normal;
 }
 
-
 .contato {
   color: #ced4da;
   font-size: 25px;
@@ -79,7 +78,7 @@ body {
 }
 
 .icones-redes {
-  margin-top: 70px;
+  margin-top: 20px;
 }
 
 .icone-link {
@@ -87,6 +86,7 @@ body {
   text-decoration: none;
   margin: 6px 0;
   transition: color 0.2s;
+  padding-top: 3px;
 }
 
 .icone-link:hover {
@@ -109,13 +109,19 @@ body {
   font-size: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 10px;
 }
 
 .sobre-mim p {
-  line-height: 1.6;
-  font-size: 15px;
+  font-size: 16px;
   color: #d3d3d3;
   font-weight: bold;
+  flex: 1;
+  max-width: 680px;
+  text-align: justify;
+  margin-left: 10px;
+  line-height: 1.6;
+  margin-bottom: 16px;
 }
 
 .retangulo-unico {
@@ -150,9 +156,9 @@ body {
   background-color: #2a2a2a;
   border: 1px solid #444;
   border-radius: 16px;
-  padding: 24px;
+  padding: 25px;
   max-width: 300px;
-  margin: 40px auto;
+  margin: 22px auto;
   margin-left: 5px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
@@ -161,8 +167,8 @@ body {
   font-family: "Barlow", sans-serif;
   font-size: 20px;
   color: #ced4da;
-  margin-top: 5px;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
+  margin-top: -2px;
   font-weight: 900;
   letter-spacing: 1px;
 }
@@ -182,7 +188,6 @@ body {
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
   color: #ccc;
-
 }
 
 .skills-list img {
@@ -192,7 +197,7 @@ body {
 }
 
 .ticker {
-  font-size: 14px;
+  font-size: 16px;
   margin-right: 8px;
   color: #eee;
 }
@@ -205,8 +210,3 @@ body {
 .value.up {
   color: #48e16e;
 }
-
-.value.down {
-  color: #ff5f5f;
-}
-
