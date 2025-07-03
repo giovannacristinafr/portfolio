@@ -14,7 +14,7 @@ body {
 
 
 .site-title {
-  color: #aa66f3;
+  color: #f25c54;
   font-size: 30px;
   margin: 0;
   font-family: "Barlow", sans-serif;
@@ -34,22 +34,22 @@ body {
   padding: 20px;
   border-radius: 10px;
   width: 285px;
-  height: 530px;
+  height: 500px;
   flex-shrink: 0;
   text-align: center;
 
 }
 
 .sidebar .gcf-pic {
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
   object-fit: cover;
   border-radius: 20px;
-  border: 2px solid #aa66f3;
+  border: 2px solid #d3d3d3;
 }
 
 .meu-nome {
-  color: #aa66f3;
+  color: #f94144;
   margin-top: 10px;
   font-size: 25px;
   font-family: "Barlow", sans-serif;
@@ -64,7 +64,7 @@ body {
   font-family: "Barlow", sans-serif;
   font-weight: 900;
   font-style: normal;
-  text-align: left;
+  text-align: center;
   padding-top: 20px;
 }
 
@@ -75,7 +75,7 @@ body {
   line-height: 1.6;
   color: #d3d3d3;
   font-weight: normal;
-  text-align: left;
+  text-align: center;
 }
 
 .icones-redes {
@@ -83,7 +83,7 @@ body {
 }
 
 .icone-link {
-  color: #aa66f3;
+  color: #f94144;
   text-decoration: none;
   margin: 6px 0;
   transition: color 0.2s;
@@ -98,7 +98,7 @@ body {
   padding: 20px;
   border-radius: 10px;
   flex: 1;
-  position: relative; /* necessário para posicionar o botão */
+  height: 500px;
 }
 
 .article-title {
@@ -133,7 +133,7 @@ body {
 }
 
 .botao-projeto {
-  background-color: #aa66f3;
+  background-color: #f94144;
   color: #1e1e1e;
   text-decoration: none;
   padding: 10px 14px;
@@ -143,7 +143,7 @@ body {
 }
 
 .botao-projeto:hover {
-  background-color: #86e3ff;
+  background-color: #f7b267;
 }
 
 .skills-box {
